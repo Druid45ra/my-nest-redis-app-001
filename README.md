@@ -6,6 +6,25 @@
 
 > Starter NestJS project with Redis integration
 
+<p align="center">
+  <!-- Badge-uri Shields.io -->
+  <a href="https://github.com/Druid45ra/my-nest-redis-app_001/actions"><img src="https://img.shields.io/github/actions/workflow/status/Druid45ra/my-nest-redis-app_001/ci.yml?branch=main&label=build" alt="Build Status"></a>
+  <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Test Coverage">
+  <img src="https://img.shields.io/badge/node-%3E=20.x-blue" alt="Node Version">
+  <img src="https://img.shields.io/github/license/Druid45ra/my-nest-redis-app_001" alt="License">
+</p>
+
+## Linkuri rapide
+
+- [Exemplu fișier de mediu `.env.example`](./.env.example)
+- [Ghid de contribuție `CONTRIBUTING.md`](./CONTRIBUTING.md)
+- [Changelog `CHANGELOG.md`](./CHANGELOG.md)
+
+## Documentație API
+
+Dacă ai activat Swagger, documentația API este disponibilă la:  
+[http://localhost:3000/api](http://localhost:3000/api)
+
 ## Description
 
 Acesta este un proiect de tip starter pentru [NestJS](https://github.com/nestjs/nest), cu integrare Redis, creat și întreținut de [Druid45ra](https://github.com/Druid45ra).
@@ -215,3 +234,8 @@ jobs:
       - run: npm run test
       - run: npm run test:e2e
 ```
+
+## Contribuie
+
+Oricine dorește să ajute la dezvoltarea acestui proiect este binevenit!  
+Vezi regulile și pașii de contribuție în `CONTRIBUTING.md`.
